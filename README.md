@@ -3,7 +3,9 @@ various HC12 utilities & tools
 
 Australian **LIPD** permits the following:  
 * 433.05 - 434.79MHz, max 25mW, all transmitters  
-* 472.0125 - 472.1125, max 100mW, general telemetry
+* 472.0125 - 472.1125, max 100mW, general telemetry  
+
+Amateur Radio Band: 430-450MHz  
 
 #### Channel Selection
 Valid Channels: 1-127  
