@@ -8,6 +8,14 @@
  * - transfer the new settings to the HC12
  * - print the new HC12 configuration to the console
  * - continually send beacons via the HC12
+ * 
+ * Wiring details:
+ * Nano - HC12
+ *  5V - VCC
+ * GND - GND
+ *  D4 - RXD 
+ *  D5 - TXD
+ *  D6 - SET
  */
 //---New Settings--------------------------------------------------------------------
 #define HC12_BAUD 9600          // Baudrate 
@@ -251,4 +259,3 @@ bool hc12_check_set_response() {
   }
   return true;
 }
-
